@@ -1,0 +1,46 @@
+.qr-code-component {
+    text-align: center;
+    background-color: white;
+    padding: 16px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+    margin: 26px;
+    width: 320px;
+
+    &__banner {
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    &__content {
+        margin: 24px 0;
+    }
+
+    &__title {
+        font-size: 22px;
+        line-height: 28px;
+        color: #1F314F;
+        margin: 16px 0;
+        font-weight: 700;
+    }
+
+    &__copy {
+        color: #7D889E;
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: 0.1875px;
+        margin: 16px;
+        font-weight: 400;
+    }
+
+    &__photo {
+        display: block;
+    }
+
+    &__img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+@use '../abstracts/fonts/outfit';
+
+.qr-code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D5E1EF;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
